@@ -1,6 +1,6 @@
 # vallmereVanilla
 
-Interfaz de usuario del e-commerce Valmere con HTML y CSS puro.
+Interfaz de usuario del e-commerce Vallmere con HTML, CSS y vanilla JavaScript.
 
 Sebastian Hernandez
 Sara Medina
