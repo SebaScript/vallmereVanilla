@@ -149,6 +149,79 @@ nav {
     margin-top: 30px;
 }
 
+.account-main {
+    padding: 2rem;
+}
+
+.account-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    background-color: white; 
+    padding: 2rem;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+}
+
+
+.account-sidebar {
+    flex: 1;
+    min-width: 200px;
+}
+
+.account-sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.account-sidebar ul {
+    list-style: none;
+}
+
+.account-sidebar li {
+    margin-bottom: 1rem;
+}
+
+.account-sidebar a {
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+}
+
+.account-sidebar a:hover {
+    color: #000;
+}
+
+.account-sidebar a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.account-content {
+    flex: 3;
+}
+
+.account-content h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.account-content p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.account-content a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.account-content a:hover {
+    text-decoration: underline;
+}
 
 footer {
     background-color: #1a2526; 
