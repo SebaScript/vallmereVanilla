@@ -1,0 +1,102 @@
+body {
+    background-color: #f9f9f9;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.account-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.account-container h1 {
+    font-size: 44px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.login-section, .register-section {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+
+.login-section h2, .register-section h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.required {
+    color: red;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-section input[type="text"], .login-section input[type="password"] {
+    background-color: #e6f2ff;
+}
+
+.register-section input[type="text"], .register-section input[type="email"], .register-section input[type="password"] {
+    background-color: #fff;
+}
+
+.remember-me {
+    margin-bottom: 15px;
+}
+
+.remember-me label {
+    display: inline;
+    margin-left: 5px;
+}
+
+.black-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.register-section p {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
+
