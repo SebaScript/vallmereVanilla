@@ -235,8 +235,21 @@ nav {
     margin-bottom: 15px;
 }
 
-.btn-view{
-    display:block;
+.btn-menu,
+.btn-menu:link,
+.btn-menu:visited, 
+.btn-menu:hover, 
+.btn-menu:active {
+    text-decoration: none;
+}
+
+/* Deletes the weird Line in all states */
+.btn-view, 
+.btn-view:link, 
+.btn-view:visited, 
+.btn-view:hover, 
+.btn-view:active {
+    display: block;
     width: 100px;
     margin-left: 80%;
     padding: 8px;
@@ -248,9 +261,14 @@ nav {
     text-align: center;
     font-weight: bold;
     transition: background 0.3s ease;
+    text-decoration: none; 
+    font-family: inherit;
+    font-size: inherit;
 }
 .btn-view:hover {
     background: #333;
+    color: white; 
+    text-decoration: none; 
 }
 
 .section-title {
@@ -266,6 +284,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
+    margin-bottom: 20px;
 }
 
 .product {
