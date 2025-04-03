@@ -235,6 +235,10 @@ nav {
     margin-bottom: 15px;
 }
 
+.title-products-container h2 {
+    text-align: left;
+}
+
 .btn-menu,
 .btn-menu:link,
 .btn-menu:visited, 
@@ -243,7 +247,6 @@ nav {
     text-decoration: none;
 }
 
-/* Deletes the weird Line in all states */
 .btn-view, 
 .btn-view:link, 
 .btn-view:visited, 

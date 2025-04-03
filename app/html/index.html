@@ -26,7 +26,7 @@
                     <li>
                         <a href="#">Shop By Category<i class="fas fa-chevron-down"></i></a>
                     </li>
-                    <li><a href="last-collection.html" class="btn-menu">New Arrivals</a></li>
+                    <li><a href="latest-collection.html" class="btn-menu">New Arrivals</a></li>
                     <li><a href="#">Collections</a></li>
                 </ul>
             </div>
@@ -61,7 +61,7 @@
         <section class="products">
             <div class="title-products-container">
                 <h2 class="section-title">Latest Collection</h2>
-                <a href="last-collection.html" class="btn-view">View all</a>
+                <a href="latest-collection.html" class="btn-view">View all</a>
             </div>
             <div class="products-container">
     
@@ -134,5 +134,16 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const buyButtons = document.querySelectorAll('.product');
+            
+            buyButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    window.location.href = 'product.html';
+                });
+            });
+        });
+    </script>
 </body>
 </html>
